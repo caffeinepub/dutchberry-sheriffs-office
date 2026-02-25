@@ -131,7 +131,11 @@ function App() {
               onClick={() => scrollToSection("hero")}
               className="flex items-center gap-3 hover:opacity-80 transition-opacity"
             >
-              <Shield className="h-8 w-8 text-primary-foreground" />
+              <img 
+                src="/assets/generated/dutchberry-logo-transparent.dim_200x200.png" 
+                alt="Dutchberry Sheriffs Office Logo" 
+                className="h-8 w-8"
+              />
               <span className="font-heading font-bold text-xl text-primary-foreground">
                 Dutchberry Sheriffs Office
               </span>
@@ -524,7 +528,11 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <Shield className="h-6 w-6 text-primary-foreground" />
+              <img 
+                src="/assets/generated/dutchberry-logo-transparent.dim_200x200.png" 
+                alt="Dutchberry Sheriffs Office Logo" 
+                className="h-6 w-6"
+              />
               <span className="font-heading font-bold text-primary-foreground">
                 Dutchberry Sheriffs Office
               </span>
